@@ -1,6 +1,11 @@
 {
     "whitelist-plugins-usages": true,
     "whitelist": [
+        "com.google.android.gms.common:ConnectionResult*",
+        "com.google.android.gms.common.api:GoogleApiClient*",
+        "com.google.android.gms.common.api.GoogleApiClient:Builder*",
+        "com.google.android.gms.common.api.GoogleApiClient:OnConnectionFailedListener*",
+        "com.google.android.gms.common.api.GoogleApiClient:ConnectionCallbacks*"
     ],
     "blacklist": [
         "org.nativescript.widgets:TabLayout*", 

@@ -17,6 +17,7 @@
 <script lang="ts">
 import { ACTIVITY_TYPE, activityEvent, activityRecognition } from '@nativescript-community/motion-activity';
 import { request } from '@nativescript-community/perms';
+import { alert } from '@nativescript/core';
 export default {
     data() {
         return {
@@ -42,7 +43,7 @@ export default {
                 }
                 await activityRecognition.start();
             } catch (error) {
-                console.error(error);
+                alert(error);
             }
         },
         async stop() {

@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+    <!-- <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
         <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.App.Title.Text</item>
         <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.App.Body.Text</item>
         <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
@@ -22,9 +22,9 @@
     <style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.MaterialComponents">
         <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
         <item name="shapeAppearanceOverlay">@null</item>
-    </style>
+    </style> -->
 
-    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+    <!-- <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
         <item name="android:maxWidth">10dp</item>
-    </style>
+    </style> -->
 </resources> 

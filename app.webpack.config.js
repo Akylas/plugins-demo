@@ -425,7 +425,7 @@ module.exports = (env, params = {}) => {
     //     );
     // }
     config.optimization.splitChunks.cacheGroups.defaultVendor.test = /[\\/](node_modules|nativescript-carto|NativeScript[\\/]dist[\\/]packages[\\/]core)[\\/]/;
-    config.optimization.minimize = uglify !== undefined ? uglify : production;
+    config.optimization.minimize = uglify !== undefined ? !!uglify : production;
     const isAnySourceMapEnabled = !!sourceMap || !!hiddenSourceMap || !!inlineSourceMap;
     config.optimization.minimizer = [
         new TerserPlugin({
