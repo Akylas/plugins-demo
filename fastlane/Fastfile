@@ -1,4 +1,5 @@
 require 'json'
+require 'fileutils'
 class String
   def titlecase
     split(/([[:alpha:]]+)/).map(&:capitalize).join
@@ -9,6 +10,7 @@ def truncate(string, length = 20)
   string.size > length+5 ? [string[0,length],string[-5,5]].join("...") : string
 end
 def writeFileIfNotExist(filePath, string)
+  FileUtils.mkdir_p(File.dirname(filePath))
   if !File.exist?(filePath) 
     File.write(filePath, string)
   end

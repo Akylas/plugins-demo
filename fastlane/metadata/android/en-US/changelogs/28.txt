@@ -1,2 +1,0 @@
-*Bug fixes*
-- update to latest backend api

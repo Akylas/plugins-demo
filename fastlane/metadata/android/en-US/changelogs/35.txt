@@ -1,3 +1,0 @@
-*Bug fixes*
-- SWCDC-138 wrong start time
-- *android:* SWCDC-116 a bit longer

@@ -1,7 +1,0 @@
-*Bug fixes*
-- join node fix preventing duplicate calls to nodes
-- default color to prevent crash on android
-- ensure we show error while uploading
-- ensure we update status on upload error
-- show error about missing permissions
-- close scenario on upload
