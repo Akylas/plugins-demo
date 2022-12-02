@@ -59,5 +59,9 @@
       <key>NSAllowsArbitraryLoads</key>
       <true/>
     </dict>
+    <key>NSMotionUsageDescription</key>
+    <string>record for data collection</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>record audio for data collection</string>
   </dict>
 </plist>
