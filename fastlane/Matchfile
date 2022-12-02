@@ -1,0 +1,5 @@
+git_url "git@github.com:Akylas/ios_certs.git"
+storage_mode("git")
+type("appstore") # The default type, can be: appstore, adhoc, enterprise or devel
+app_identifier("com.akylas.nativescript.plugins")
+username("martin.guillon@akylas.fr")

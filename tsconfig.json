@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "es2019",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "declaration": false,
+        "lib": ["ES2021.Promise"],
+        "removeComments": false,
+        "emitDecoratorMetadata": false,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "allowUnreachableCode": false,
+        "allowSyntheticDefaultImports": true,
+        "allowUnusedLabels": false,
+        "noEmitHelpers": true,
+        "noEmitOnError": false,
+        "noImplicitAny": false,
+        "noImplicitReturns": false,
+        "noImplicitUseStrict": false,
+        "noFallthroughCasesInSwitch": true,
+        "resolveJsonModule": true,
+        "types": ["node", "vue"],
+        "baseUrl": ".",
+        "paths": {
+            "~/*": ["app/*"],
+        },
+        "plugins": [{ "transform": "@nativescript/webpack/dist/transformers/NativeClass", "type": "raw" }]
+    },
+    "include": ["app/**/*", "references.d.ts", "typings/*.d.ts"],
+    "exclude": ["node_modules", "platforms"]
+}

@@ -1,0 +1,10 @@
+{
+
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "sourceMap": false,
+
+    },
+    "include": ["**/*", ".eslintrc.js", "app.webpack.config.js"],
+    "exclude": ["**/node_modules"]
+}

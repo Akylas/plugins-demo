@@ -1,0 +1,19 @@
+@import "variables";
+
+:export {
+  accentColor: $accent-color;
+  primaryColor: $primary-color;
+  darkColor: $dark-color;
+  textColor: $text-color;
+  textLightColor: $text-light-color;
+  borderColor: $border-color;
+  lightBorderColor: $light-border-color;
+  subtitleColor: $subtitle-color;
+  iconColor: $icon-color;
+  backgroundColor: $background-color;
+  actionBarHeight: $actionbar-height;
+  listBorderColor: $list-border-color;
+  actionBarButtonHeight: $actionbar-button-height;
+  mdiFontFamily: $mdi-fontFamily;
+  appFontFamily: $app-fontFamily;
+}

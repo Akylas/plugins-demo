@@ -1,0 +1,17 @@
+*Features*
+- profiles list/add/view
+- add sensor on login + sensors list
+- basic scenario playing working
+- more nodes implementation
+- basic push implementation
+- file explorer action to copy path
+- *android:* working sensor logger
+
+*Bug fixes*
+- *android:* use okhttp for uploads
+- *android:* prevent upload while in background as it will fail in 12
+- trying get refresh token
+- registering requires email confirmation
+- allow to logout if no profile selected yet
+- drawer layout fix
+- bottomsheet 

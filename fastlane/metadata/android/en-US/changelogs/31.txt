@@ -1,0 +1,3 @@
+*Bug fixes*
+- scenario events being received by “close” scenarios
+- some scenario view fixes and layout improvements

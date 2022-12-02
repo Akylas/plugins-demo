@@ -1,0 +1,12 @@
+@use 'sass:color';
+@import './variables';
+
+ActionBar, Button {
+    background-color: $primary-color;
+    color: white;
+  
+    Label {
+      color: white;
+    }
+  }
+  
