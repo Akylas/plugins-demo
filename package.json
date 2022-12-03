@@ -17,11 +17,11 @@
     "dependencies": {
         "@akylas/nativescript": "8.4.1",
         "@nativescript-community/l": "4.2.26",
-        "@nativescript-community/motion-activity": "1.1.0",
+        "@nativescript-community/motion-activity": "1.1.2",
         "@nativescript-community/perms": "2.2.20",
         "@nativescript-community/sentry": "4.6.2",
         "@nativescript-community/systemui": "1.1.13",
-        "@nativescript-community/text": "1.5.10",
+        "@nativescript-community/text": "1.5.11",
         "@nativescript-community/ui-canvas": "4.4.5",
         "@nativescript-community/ui-collectionview": "4.0.64",
         "@nativescript-community/ui-label": "1.2.16",
